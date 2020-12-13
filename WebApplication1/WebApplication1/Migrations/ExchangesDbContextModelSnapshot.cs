@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace WebApplication1.Migrations
 {
-{
     [DbContext(typeof(ExchangesDbContext))]
     partial class ExchangesDbContextModelSnapshot : ModelSnapshot
     {

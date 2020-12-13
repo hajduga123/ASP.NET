@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApplication1.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace WebApplication1.Controllers
 {
-    public class AjaxAddingController
-    {
-        [ApiController]
+    
+     [ApiController]
         [Route("api/Ajax")]
         public class AjaxAddingController : ControllerBase
         {
@@ -23,7 +25,7 @@ namespace WebApplication1.Controllers
                 return receivedObject;
             }
         }
-    }
-}
+ }
+
         
 
